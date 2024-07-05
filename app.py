@@ -5,6 +5,7 @@ from langchain.agents import AgentType
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 import os
 from langchain.llms import OpenAI
+from langchain.chains import LLMMathChain
 from langchain.sql_database import SQLDatabase
 from langchain_experimental.sql import SQLDatabaseChain
 
