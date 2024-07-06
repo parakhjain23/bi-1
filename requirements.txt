@@ -3,3 +3,4 @@ langchain-openai
 langchain
 langchain-community
 langchain_experimental
+numexpr
