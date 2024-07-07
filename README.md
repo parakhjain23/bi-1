@@ -19,8 +19,8 @@ This application allows users to upload an SQLite database and query it using na
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo/langchain-query-interface.git
-   cd langchain-query-interface
+   git clone https://github.com/paras55/Chat-with-DB.git
+   cd Chat-with-DB
    ```
 
 2. **Install the required packages:**
@@ -29,8 +29,8 @@ This application allows users to upload an SQLite database and query it using na
    ```
 
 3. **Set up environment variables:**
-   - Create a `.streamlit/secrets.toml` file in the project root and add your OpenAI API key:
-     ```toml
+   - Add env variables when deploying on streamlit cloud in advanced settings option:
+     ```
      [secrets]
      OPENAI_API_KEY = "your_openai_api_key"
      ```
