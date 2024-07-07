@@ -71,3 +71,9 @@ if st.button("Ask"):
     else:
         st.warning("Please upload a database file to proceed.")
 
+st.title('Detailed Blog :sunglasses:')
+
+st.image('llm.png', caption='Talking to the Database')
+
+
+st.subheader("Check out this [Medium blog I wrote](https://medium.com/@parasmadan.in/langchain-connecting-llms-to-your-database-8dd28a98e4f3)")
