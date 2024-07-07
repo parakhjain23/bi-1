@@ -10,7 +10,6 @@ from langchain.sql_database import SQLDatabase
 from langchain_experimental.sql import SQLDatabaseChain
 
 # Set environment variables
-#os.environ["OPENAI_API_KEY"] = "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"
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 
