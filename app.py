@@ -71,7 +71,7 @@ if st.button("Ask"):
     else:
         st.warning("Please upload a database file to proceed.")
 
-st.title('Detailed Blog :sunglasses:')
+st.header('Detailed Blog Post')
 
 st.image('llm.png', caption='Talking to the Database')
 
