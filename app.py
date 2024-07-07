@@ -59,7 +59,7 @@ agent = initialize_agent(
     tools=tools, llm=llm, agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
 
 st.markdown(
-    '<a href="https://example.com/sample.db" download="sample_database.db">Download a sample database</a>',
+    '<a href="https://drive.google.com/file/d/1EFxg66ffoRuEMc1mixbHhuzaKkv7kENn/view" download="sample_database.db">Download a sample database</a>',
     unsafe_allow_html=True
 )
 
