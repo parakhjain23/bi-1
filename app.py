@@ -20,7 +20,7 @@ llm = ChatOpenAI(model="gpt-4o", openai_api_key= OPENAI_API_KEY)
 llm_math_chain = LLMMathChain.from_llm(llm=llm, verbose=True)
 
 # Streamlit User Interface
-st.title("Langchain Query Interface")
+st.title("Chat with your Database")
 
 # File uploader for the database
 db_file = st.file_uploader("Upload your SQLite database", type=["db"])
